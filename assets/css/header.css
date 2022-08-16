@@ -1,0 +1,42 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1186f0;
+  color: white;
+  font-size: large;
+}
+
+header div {
+  margin-top: 17px;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+header div :hover {
+  color: darkblue;
+}
+
+header div a {
+  text-decoration: none;
+  color: white;
+}
+
+header ul {
+  list-style-type: none;
+}
+
+header ul li {
+  display: inline-block;
+  font-size: larger;
+  padding-top: 2px;
+  margin-right: 5px;
+}
+
+header ul li :hover {
+  color: darkblue;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: white;
+}

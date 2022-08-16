@@ -1,0 +1,35 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1186f0;
+    color: white;
+    font-size: large;
+    div{
+      margin-top: 17px;
+      font-size: x-large;
+      font-weight: bold;
+      :hover{
+        color: darkblue;
+      }
+      a{
+        text-decoration: none;
+        color: white;
+      }
+    }
+    ul{
+        list-style-type: none; 
+        li{
+          display: inline-block;
+          font-size: larger;
+          padding-top: 2px;
+          margin-right: 5px;
+          :hover {
+            color: darkblue;
+          }
+          a{
+            text-decoration: none;
+            color: white;
+          }
+        }
+    }
+}
